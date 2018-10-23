@@ -6,6 +6,7 @@
 body {
     font-family: 'Calibri', sans-serif;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 header {
@@ -18,7 +19,7 @@ main {
 }
 
 .menu {
-   background: #6D5F67;
+   background: #ffd095;
    height: 100%;
    display: flex;
    justify-content: space-around;
@@ -33,9 +34,8 @@ main {
 
 .menupoint{
   background: #501537;
-  height: 60%;
   flex-grow: 1;
-  margin: 2%;
+  margin: 1.4% 2%;
   text-decoration: none;
 }
 
@@ -75,6 +75,7 @@ section {
 .content {
   background: #F2921B;
   height: 10em;
+  min-width: 300px;
   flex-grow: 1;
   margin: 2%;
 }
