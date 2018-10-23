@@ -1,17 +1,25 @@
 {
   "name": "codebeispiele",
   "version": "1.0.0",
-  "description": "",
+  "description": "Here you can find some examples of my bachelorthesis (stopped developing)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "joellehelgert",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joellehelgert/codeexamples_bac.git"
+  },
   "license": "ISC",
   "devDependencies": {
+    "fresh": ">=0.5.2",
     "gulp": "^3.9.1",
-    "gulp-connect": "^5.5.0",
-    "gulp-sequence": "^1.0.0"
+    "gulp-connect": "^5.6.1",
+    "gulp-sequence": "^1.0.0",
+    "lodash": ">=4.17.5",
+    "mime": ">=1.4.1",
+    "minimatch": ">=3.0.2"
   },
   "dependencies": {}
 }
